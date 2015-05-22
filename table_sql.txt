@@ -1,0 +1,13 @@
+-- --------------------------------------------------------
+
+--
+-- 테이블 구조 `survey_list`
+--
+
+CREATE TABLE IF NOT EXISTS `survey_list` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subject` varchar(255) NOT NULL,
+  `intro` varchar(255) NOT NULL,
+  `date` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=36 ;
